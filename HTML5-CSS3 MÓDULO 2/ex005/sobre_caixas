@@ -1,0 +1,47 @@
+DISPLAY BLOCK
+
+transforma o item em uma BOX LEVEL
+
+DISPLAY INLINE-BLOCK
+
+continua sendo inline mas tem algumas configurações de bloco, podendo por tamanho, altura, largura etc
+
+DISPLAY: INLINE
+
+transforma o tem em um INLINE LEVEL
+
+BORDA
+
+"Border-Width"
+"Border-Style" = "Dashed: Pontilhado", "Dotted: Pontilhado mais espaçado", "Double: Linha Dupla", "Solid: Sólido", "Groove: 3D"
+"Border-Color"
+
+SIMPLIFICAÇÃO "border: 10px solid red;"
+
+PADDING
+
+"Padding-top", "Padding-right", "Padding-bottom", "Padding-left" 
+--NESSA ORDEM (SEMPRE CONFIGURANDO EM SENTIDO HORARIO: (12,18,00,06))--
+
+SIMPLIFICAÇÃO "padding: 0px 0px 0px 0px;" ou "padding: 0px;" ou "padding: 10px 0px; (cima e baixo = 10, esquerda e direita = 0)"
+
+MARGIN 
+
+"Margin-top", "Margin-right", "Margin-bottom", "Margin-left"
+--NESSA ORDEM (SEMPRE CONFIGURANDO EM SENTIDO HORARIO: (12,18,00,06))--
+
+SIMPLIFICAÇÃO "margin: 0px 0px 0px 0px;"
+
+"Margin: auto;" centraliza a caixa no meio horizontalmente
+
+Outro exemplo de código
+"margin: 20px auto 40px auto", deixando no meio com direita e esqueda em "auto"
+
+OUTLINE
+
+"Outline-Width: ;", "Outline-style: ;", "Outline-color: ;" criam uma linha com cor e estilo entre a borda e a margin
+
+SIMPLIFICAÇÃO outline: "5px dashed salmom;"
+
+
+
