@@ -1,3 +1,13 @@
+/* Vh é mais usado para tamanho de páginas, exemplo, 10vh de header e 90vh de main, ocupando a pagina inteira sem deixar scroll lateral, ou quando colocar mais texto aumentar esse valor. */
+
+/* Rem usa o tamanho do body{font: 100%}, div{font: 10rem}, assim quando for fazer responsividade dos textos só preciso abaixar a porcentagem do body */
+
+/* Em usa o tamanho do elemento pai sendo o mesmo exemplo acima mas inves do body 100% seria uma div por exemplo */
+
+/* "object fit: cover;" AJUDA NA RESOLUÇÃO E QUALIDADE DA IMAGEM */
+
+/* "Box-sizing: border box" limita melhor as coisas pra div, com um padding jogando os itens "para dentro" ao invés de mais largura para fora */
+
 @charset "UFT-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
