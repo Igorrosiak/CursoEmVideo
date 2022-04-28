@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(11, 97, 177);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1 name="titulo">Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em Javascript.</p>
+    <div id="msg">Clique em mim</div>
+    <div class="div2">AAAAAA</div>
+
+    <script>
+        window.document.write(window.document.charset)
+
+        window.document.write(window.navigator)
+
+        window.document.write(window.document.URL)
+
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('msg')
+        var e = window.document.getElementsByName('titulo')
+        var f = window.document.getElementsByClassName('div2')
+        var g = window.document.querySelector('div#msg')
+
+        p1.style.color = 'blue'
+        document.write(p1.innerHTML)
+
+        corpo.style.background = 'green'
+        
+        d.innerText = 'Estou aguardando...'
+
+        e.innerText = 'OLÁ'
+        
+    </script>
+</body>
+</html>
+
+<!-- Janela do Navegador é um objeto dom chamado window
+
+dentro do window temos location, document, history e muitos outros objetos
+
+dentro do document temos o html e dentro do html temos o head e o body-->
+
+<!-- Métodos de Acesso DOM 
+
+    por Marca
+    "getElementsByTagName()"
+
+    por ID
+    "getElementById()"
+
+    por Nome
+    "getElementsByName()"
+    
+    por Classe
+    "getElementsByClassName()"
+
+    por Seletor
+    "querySelector()"
+    "querySelectorAll()"
+-->

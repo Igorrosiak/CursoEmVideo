@@ -1,0 +1,25 @@
+"VARIAVEIS E TIPOS PRIMITIVOS"
+/* Cria uma variavel */
+
+var w = 3
+
+/* Modifica o valor da variavel acima */
+
+var w = "igor"
+
+/* Mostra o tipo da variavel */
+
+var n = 2
+typeof n
+
+/* Tipos de Variaveis Primitivos que vamos utilizar 
+
+number, string, boolean */
+
+/* Outros tipos primitivos existentes
+
+Infinity e Nan que estão dentro de NUMBER
+null
+undefined
+object, que tem o array dentro dele também
+function */
